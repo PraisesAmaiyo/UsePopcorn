@@ -31,6 +31,12 @@ body {
 
 /* ******* */
 
+.box::-webkit-scrollbar,
+.list::-webkit-scrollbar {
+  display: none;
+  scroll-behavior: smooth;
+}
+
 .nav-bar {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
